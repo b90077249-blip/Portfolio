@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bekzod Portfolio</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="logo">Bekzod</div>
+
+    <nav>
+        <a href="#">Bosh sahifa</a>
+        <a href="#about">Men haqimda</a>
+        <a href="#instagram">Instagram</a>
+    </nav>
+
+    <button id="theme">🌙</button>
+</header>
+
+<section class="hero">
+
+<h1>Salom, Men Bekzod</h1>
+
+<p>Zamonaviy Portfolio Sayti</p>
+
+<a class="btn" href="#about">Boshlash</a>
+
+</section>
+
+<section id="about">
+
+<h2>Men haqimda</h2>
+
+<p>Azatbayev Bekzod</p>
+
+</section>
+
+<section id="instagram">
+
+<h2>Instagram</h2>
+
+<a class="btn"
+href="https://instagram.com/azatbayevv__"
+target="_blank">
+@azatbayevv__
+</a>
+
+</section>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
